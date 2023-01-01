@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/layout" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/fabHead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/floater"/>
+    <ImageButton android:id="@+id/closeButton" android:background="@drawable/circle_red" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="-13dp" android:layout_marginTop="0dp" android:src="@drawable/close" android:layout_toRightOf="@+id/fabHead" android:elevation="3dp" style="@style/Widget.AppCompat.Button.Borderless"/>
+    <ImageButton android:id="@+id/openButton" android:background="@drawable/circle_background" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="-13dp" android:layout_marginTop="0dp" android:src="@drawable/open" android:layout_toRightOf="@+id/fabHead" android:layout_below="@+id/closeButton" android:elevation="3dp" style="@style/Widget.AppCompat.Button.Borderless"/>
+</RelativeLayout>
